@@ -1,0 +1,129 @@
+.info_container {
+  margin: 73px 120px 0px 120px;
+  height: 327px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  @media (max-width: 1270px) {
+    margin-left: 60px;
+    margin-right: 20px;
+  }
+
+  @media (max-width: 1080px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.avt_img {
+  width: 350px;
+  height: 327px;
+  border-radius: 8px;
+
+  @media (max-width: 1270px) {
+    width: 300px;
+    height: 310px;
+  }
+}
+p {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+h2,
+h3 {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+
+  @media (max-width: 1270px) {
+    font-size: 18px;
+  }
+}
+.info_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  @media (max-width: 1440px) {
+    margin-left: 16px;
+  }
+}
+.blatnyi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 32px;
+  margin-left: 26px;
+  width: 490px;
+
+  @media (max-width: 1270px) {
+    padding-right: 10px;
+  }
+  @media (max-width: 1180px) {
+    margin-left: 0px;
+    padding-left: 16px;
+  }
+
+}
+.rep_info {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  margin: 16px;
+  width: 205px;
+  padding: 16px;
+  background: #e8e8e8;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  z-index: 7;
+  overflow-wrap: break-word;
+}
+.rep_block {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rep_star {
+  padding-left: 4px;
+}
+.star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+.info1 {
+  display: block;
+  word-break: break-all;
+  width: 115px;
+}
+.rep_fork {
+  display: block;
+}
+.left_container {
+  display: flex;
+  align-items: center;
+}
